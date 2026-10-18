@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Поиск Игроков Мод</title>
+    <meta
+      name="description"
+      content="Скачать мод Target Finder 1.0.5 для Minecraft 1.21.1–1.21.11 на Fabric."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <header class="topbar">
+      <div class="brand-wrap">
+        <div class="brand-mark">D</div>
+        <div>
+          <p class="eyebrow">Creator</p>
+          <h1>Den</h1>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#features">Функции</a>
+        <a href="#downloads">Скачать</a>
+        <a href="#dependencies">Зависимости</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="pill">Minecraft • 1.21.1–1.21.11</span>
+          <h2>Поиск Игроков Мод</h2>
+          <p>
+            Ищите игроков прямо в списке участников сервера, добавляйте их в цели,
+            выбирайте цвет подсветки и смотрите последние координаты и расстояние во второй вкладке.
+          </p>
+
+          <div class="cta-group">
+            <a class="primary-btn" href="#downloads">Скачать мод</a>
+            <a class="secondary-btn" href="#dependencies">Зависимости</a>
+          </div>
+
+          <ul class="stats">
+            <li><strong>1</strong><span>загрузчик</span></li>
+            <li><strong>11</strong><span>версий</span></li>
+            <li><strong>11</strong><span>сборок</span></li>
+          </ul>
+        </div>
+
+        <div class="glass-card preview-card">
+          <div class="panel-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+
+          <div class="signal-box">
+            <p class="label">Игрок найден</p>
+            <h3>Den</h3>
+            <div class="distance-row">
+              <span class="distance">48</span>
+              <span class="unit">блоков</span>
+            </div>
+          </div>
+
+          <div class="bars">
+            <span style="height: 35%"></span>
+            <span style="height: 65%"></span>
+            <span style="height: 45%"></span>
+            <span style="height: 82%"></span>
+            <span style="height: 100%"></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="feature-grid">
+        <article class="feature-card">
+          <div class="icon">◎</div>
+          <h3>Список сервера</h3>
+          <p>Найдите игрока через строку поиска и добавьте его в отслеживание одним нажатием.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="icon">✦</div>
+          <h3>Подсветка</h3>
+          <p>Игроки видны красным свечением и находятся в фокусе даже через препятствия.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="icon">⌁</div>
+          <h3>Активные цели</h3>
+          <p>Отдельная вкладка показывает статус игрока, последние координаты и расстояние в блоках.</p>
+        </article>
+      </section>
+
+      <section id="dependencies" class="dependencies">
+        <div class="section-title">
+          <span class="mini-tag">Dependencies</span>
+          <h3>Зависимости для установки</h3>
+        </div>
+
+        <div class="dependency-grid">
+          <div class="dependency-card">
+            <h4>Fabric</h4>
+            <p>Fabric Loader 0.20.0+</p>
+            <p>Fabric API, соответствующий версии Minecraft</p>
+          </div>
+
+          <div class="dependency-card">
+            <h4>Forge</h4>
+            <p>Сборки пока нет</p>
+          </div>
+
+          <div class="dependency-card">
+            <h4>NeoForge</h4>
+            <p>Сборки пока нет</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="downloads" class="downloads">
+        <div class="section-title">
+          <span class="mini-tag">Download</span>
+          <h3>Скачать сборки</h3>
+        </div>
+
+        <p id="download-status" class="download-status" role="status" aria-live="polite"></p>
+        <div id="release-grid" class="release-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Target Finder by Den</p>
+    </footer>
+
+    <script src="script.js?v=1.0.5-jar"></script>
+  </body>
+</html>
